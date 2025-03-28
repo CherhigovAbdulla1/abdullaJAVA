@@ -58,6 +58,55 @@
       /*let user-Name = Abdulla  //дефис
       let 17age = "17"*/      //начинается с цифры
 
+        //true = 1  false = 0
+
+       let i = 1;
+       let q = 3;
+
+      let x = "белых волков"
+ 
+      let w = i + (q + x) 
+
+      console.log(w)
+
+      
+
+
+                 //Домашняя работа
+ 
+                    // 1. Тип данных для даты 28.02.1999
+          const dateString = "28.02.1999";
+          const date = new Date(dateString.split(".").reverse().join("-"));
+          console.log(date);
+
+                    // 2. Тип данных для числа Пи
+          const pi = 3.14;
+          console.log(pi);
+
+                   // 3. Константа и попытка изменить значение
+          const constantValue = 10;
+          try {
+            constantValue = 20;
+          } catch (error) {
+            console.error("Ошибка:", error.message);
+          }
+          console.log(constantValue);
+
+                  // 4. Переменные name, address, phone и вывод в консоль
+          const name = prompt("Введите имя:");
+          const address = prompt("Введите адрес:");
+          const phone = prompt("Введите номер телефона:");
+          console.log(`Студент ${name}. Адрес: ${address},
+           Номер телефона: ${phone}`);
+
+                  // 5. Курс рубля и количество рублей
+          const rubToDollarRate = 95;
+          const rublesAvailable = 10000;
+          const dollarsAvailable = rublesAvailable / rubToDollarRate;
+          console.log(`На ${rublesAvailable} рублей можно купить
+           ${dollarsAvailable.toFixed(2)} долларов.`);
+
+
 
    
       

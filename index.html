@@ -298,6 +298,89 @@
           textLorem(text);
 
 
+       //Практическая работа
+
+        // 1
+        let name = "Abdulla" // тип данных string
+
+        // 3
+
+        const age = 17; // тип данных number
+
+       // 4
+
+       if(age < 15) {
+        console.log("доступ запрещен");
+       } else{
+        console.log(`Привет ${name}`);
+       }
+
+       // 5
+
+      function viewMoney() {
+        console.log("Вот вам 10$");
+      }
+      viewMoney();
+
+      //6
+
+       function getMoney(cash) {
+        return `Вот вам ${cash}$`;
+      }
+     
+      //7
+
+      console.log(getMoney(399));  
+      console.log(getMoney(100));  
+      console.log(getMoney(0));     
+
+
+      // 8
+
+      function square(x) {
+        console.log(x * x);
+      }
+
+      square(5); 
+
+
+
+      // 9
+
+      function maxNumber(a, b) {
+        console.log(Math.max(a, b));
+      }
+
+      maxNumber(10, 5); 
+
+
+      // 10
+
+      function discriminant(a, b, c) {
+          return b * b - 4 * a * c;
+      }
+      console.log(discriminant(1, 4, -5)); 
+
+
+      // 11
+
+      function evenOdd(num1, num2) {
+        if (num1 % 2 === 0 && num2 % 2 === 0) {
+          return num1 * num2;
+        } else if (num1 % 2 !== 0 && num2 % 2 !== 0) {
+          return num1 + num2;
+        } else if (num1 % 2 !== 0) {
+            return num1;
+        } else { 
+            return num2;
+        }
+      }
+      console.log(evenOdd(2, 4)); 
+      console.log(evenOdd(3, 5)); 
+      console.log(evenOdd(2, 5)); 
+      console.log(evenOdd(3, 4)); 
+
+
 
    
       

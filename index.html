@@ -452,6 +452,48 @@ let a = ['lorem', 123, true, 'ipsum'];{
 
 
 
+       //ДЗ
+
+      let numbers = [10, 2762, 0.42, 192, 3, 28, 1125, 2018, 34, 66, 100];
+
+      numbers.forEach(number => {
+        if (number % 2 !== 0) {  
+          console.log(number);
+        }
+      });
+
+
+      let arr1 = [1, -3, 5, 6, -7, 8, 9, -11];
+      let arr2 = arr1.filter(num => num < 0);
+      console.log(arr2);
+
+      let arr3 = [10, 2762, 0.42, 192, 3, 28, 1125, 2018, 34, 66, 100];
+      let arr4 = arr3.filter(num => num % 2 === 0);
+      console.log(arr4);
+
+      let arr5 = ["lorem ipsum", "javascript", "php", "css", "react", "git", "html", "mysql"];
+      let arr6 = arr5.filter(str => str.length !== 3);
+      console.log(arr6)
+
+      let arr7 = [5, 6, 7, 8, 9];
+      let arr8 = arr7.map(num => num * num);
+      console.log(arr8);
+
+      let arr9 = [{ a: 10, b: 5 }, { a: 20, b: 22 }, { a: 131, b: 55 }];
+      let arr10 = arr9.map(obj => obj.a + obj.b);
+      console.log(arr10);
+
+
+
+      let arr11 = [{ x: 10, y: "lorem" }, { x: 21, y: "lorem" }, { x: -17, y: "lorem" }, { x: 156, y: "lorem" }];
+
+      let arr12 = arr11.reduce((sum, obj) => sum + obj.x, 0);
+
+      console.log(arr12); 
+
+
+
+
 
    
       
